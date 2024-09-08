@@ -1,0 +1,17 @@
+{
+    "name": "macb/coffe-brunch",
+    "autoload": {
+        "psr-4": {
+            "Macb\\CoffeBrunch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cristóbal Villasante",
+            "email": "cvillasanteg@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

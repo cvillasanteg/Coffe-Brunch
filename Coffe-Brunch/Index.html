@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brunch Out Barcelona</title>
+    <link rel="stylesheet" href="brunch.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Brunch Time</div>
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" data-lang="es">Nosotros</a>
+                    <a href="#about" data-lang="en" style="display:none;">About Us</a>
+                    <a href="#about" data-lang="fr" style="display:none;">À propos de nous</a>
+                </li>
+                <li><a href="#menu" data-lang="es">Menú</a>
+                    <a href="#menu" data-lang="en" style="display:none;">Menu</a>
+                    <a href="#menu" data-lang="fr" style="display:none;">Menu</a>
+                </li>
+                <li><a href="#contact" data-lang="es">Contacto</a>
+                    <a href="#contact" data-lang="en" style="display:none;">Contact</a>
+                    <a href="#contact" data-lang="fr" style="display:none;">Contact</a>
+                </li>
+                <li><a href="#reserva" data-lang="es">Reserva</a>
+                    <a href="#reserva" data-lang="en" style="display:none;">Reservation</a>
+                    <a href="#reserva" data-lang="fr" style="display:none;">Réservation</a>
+                </li>
+                <li class="lang-selector">
+                    <img src="Logoes.JPG" alt="Es" id="lang-es">
+                    <img src="Logoen.PNG" alt="En" id="lang-en">
+                    <img src="Logofr.PNG" alt="Fr" id="lang-fr">
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <!-- Sección del logo -->
+    <section class="logo-section">
+        <img src="Logo.PNG" alt="Logo Coffee Brunch" class="logo-image">
+    </section>
+
+    <section class="hero">
+        <h1 data-lang="es">Bienvenidos a Brunch Out BCN</h1>
+        <h1 data-lang="en" style="display:none;">Welcome to Brunch Out BCN</h1>
+        <h1 data-lang="fr" style="display:none;">Bienvenue à Brunch Out BCN</h1>
+        <p data-lang="es">El mejor brunch de Barcelona</p>
+        <p data-lang="en" style="display:none;">The best brunch in Barcelona</p>
+        <p data-lang="fr" style="display:none;">Le meilleur brunch de Barcelone</p>
+        <div class="btn-container">
+            <a href="#menu" class="btn" data-lang="es">Descubre nuestro menú</a>
+            <a href="#menu" class="btn" data-lang="en" style="display:none;">Discover our menu</a>
+            <a href="#menu" class="btn" data-lang="fr" style="display:none;">Découvrez notre menu</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 data-lang="es">Sobre Nosotros</h2>
+        <h2 data-lang="en" style="display:none;">About Us</h2>
+        <h2 data-lang="fr" style="display:none;">À propos de nous</h2>
+        <p data-lang="es">En Brunch Out Barcelona te ofrecemos una experiencia única con deliciosos platos y un ambiente relajante.</p>
+        <p data-lang="en" style="display:none;">At Brunch Out Barcelona, we offer you a unique experience with delicious dishes and a relaxing atmosphere.</p>
+        <p data-lang="fr" style="display:none;">Chez Brunch Out Barcelona, nous vous offrons une expérience unique avec des plats délicieux et une ambiance relaxante.</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2 data-lang="es">Menú</h2>
+        <h2 data-lang="en" style="display:none;">Menu</h2>
+        <h2 data-lang="fr" style="display:none;">Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3 data-lang="es">Café Espresso</h3>
+                <h3 data-lang="en" style="display:none;">Espresso Coffee</h3>
+                <h3 data-lang="fr" style="display:none;">Café Espresso</h3>
+                <p data-lang="es">Aromático y lleno de sabor</p>
+                <p data-lang="en" style="display:none;">Aromatic and full of flavor</p>
+                <p data-lang="fr" style="display:none;">Aromatique et plein de saveur</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Brunch Especial</h3>
+                <h3 data-lang="en" style="display:none;">Special Brunch</h3>
+                <h3 data-lang="fr" style="display:none;">Brunch Spécial</h3>
+                <p data-lang="es">Incluye huevos, aguacate, y pan artesanal</p>
+                <p data-lang="en" style="display:none;">Includes eggs, avocado, and artisan bread</p>
+                <p data-lang="fr" style="display:none;">Comprend des œufs, de l'avocat et du pain artisanal</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+            <div class="menu-item">
+                <h3 data-lang="es">Smoothie Bowl</h3>
+                <h3 data-lang="en" style="display:none;">Smoothie Bowl</h3>
+                <h3 data-lang="fr" style="display:none;">Bol de Smoothie</h3>
+                <p data-lang="es">Frutas frescas con granola casera</p>
+                <p data-lang="en" style="display:none;">Fresh fruits with homemade granola</p>
+                <p data-lang="fr" style="display:none;">Fruits frais avec granola maison</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reserva" class="reserve">
+        <h2 data-lang="es">Reserva</h2>
+        <h2 data-lang="en" style="display:none;">Reservation</h2>
+        <h2 data-lang="fr" style="display:none;">Réservation</h2>
+        <form id="reservation-form" action="send_reservation.php" method="POST">
+            <label for="name" data-lang="es">Nombre:</label>
+            <label for="name" data-lang="en" style="display:none;">Name:</label>
+            <label for="name" data-lang="fr" style="display:none;">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email" data-lang="es">Email:</label>
+            <label for="email" data-lang="en" style="display:none;">Email:</label>
+            <label for="email" data-lang="fr" style="display:none;">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="people" data-lang="es">Número de personas:</label>
+            <label for="people" data-lang="en" style="display:none;">Number of people:</label>
+            <label for="people" data-lang="fr" style="display:none;">Nombre de personnes:</label>
+            <input type="number" id="people" name="people" required>
+            
+            <label for="date" data-lang="es">Fecha:</label>
+            <label for="date" data-lang="en" style="display:none;">Date:</label>
+            <label for="date" data-lang="fr" style="display:none;">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time" data-lang="es">Hora:</label>
+            <label for="time" data-lang="en" style="display:none;">Time:</label>
+            <label for="time" data-lang="fr" style="display:none;">Heure:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit" class="btn" data-lang="es">Enviar Reserva</button>
+            <button type="submit" class="btn" data-lang="en" style="display:none;">Submit Reservation</button>
+            <button type="submit" class="btn" data-lang="fr" style="display:none;">Soumettre la Réservation</button>
+        </form>
+    </section>
+    
+
+    <section id="contact" class="contact">
+        <h2 data-lang="es">Contacto</h2>
+        <h2 data-lang="en" style="display:none;">Contact</h2>
+        <h2 data-lang="fr" style="display:none;">Contact</h2>
+        <p data-lang="es">Visítanos en C/ del Rosselló, 378, L'Eixample, 08025, Barcelona, Spain</p>
+        <p data-lang="en" style="display:none;">Visit us at C/ del Rosselló, 378, L'Eixample, 08025, Barcelona, Spain</p>
+        <p data-lang="fr" style="display:none;">Visitez-nous à C/ del Rosselló, 378, L'Eixample, 08025, Barcelone, Espagne</p>
+        <p data-lang="es">
+            <i class="bi bi-envelope-fill"></i>:<a href="mailto:brunchoutbarcelona@gmail.com"> brunchoutbarcelona@gmail.com</a>
+        </p>
+        <p data-lang="en" style="display:none;">
+            <i class="bi bi-envelope-fill"></i>:<a href="mailto:brunchoutbarcelona@gmail.com"> brunchoutbarcelona@gmail.com</a>
+        </p>
+        <p data-lang="fr" style="display:none;">
+            <i class="bi bi-envelope-fill"></i>:<a href="mailto:brunchoutbarcelona@gmail.com"> brunchoutbarcelona@gmail.com</a>
+        </p>
+        <p data-lang="es"><i class="bi bi-instagram"></i>: @BrunchOutBarcelona</p>
+        <p data-lang="en" style="display:none;"><i class="bi bi-instagram"></i>: @BrunchOutBarcelona</p>
+        <p data-lang="fr" style="display:none;"><i class="bi bi-instagram"></i>: @BrunchOutBarcelona</p>
+        <p data-lang="es"><i class="bi bi-whatsapp"></i>: +34 123 456 789</p>
+        <p data-lang="en" style="display:none;"><i class="bi bi-whatsapp"></i>: +34 123 456 789</p>
+        <p data-lang="fr" style="display:none;"><i class="bi bi-whatsapp"></i>: +34 123 456 789</p>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Brunch Out Barcelona</p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            this.classList.toggle('open');
+            document.getElementById('nav-links').classList.toggle('show');
+        });
+
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            document.querySelectorAll('[data-lang]').forEach(element => {
+                element.style.display = 'none';
+            });
+            document.querySelectorAll(`[data-lang="${lang}"]`).forEach(element => {
+                element.style.display = '';
+            });
+        }
+
+        document.getElementById('lang-es').addEventListener('click', function() {
+            changeLanguage('es');
+        });
+
+        document.getElementById('lang-en').addEventListener('click', function() {
+            changeLanguage('en');
+        });
+
+        document.getElementById('lang-fr').addEventListener('click', function() {
+            changeLanguage('fr');
+        });
+    </script>
+</body>
+</html>
+
+
